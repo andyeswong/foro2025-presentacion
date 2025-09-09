@@ -2,9 +2,10 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Glassmorphic Presentation',
+  description: 'Remote controlled presentation with glassmorphic design',
   generator: 'v0.dev',
+  viewport: 'width=device-width, initial-scale=1',
 }
 
 export default function RootLayout({
